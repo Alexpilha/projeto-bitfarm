@@ -1,0 +1,75 @@
+<ion-menu [content]="mainContent">
+  <ion-content id="side-menu21" style="background-color:#042535;">
+    <img src="assets/img/tZoAP3WTTaBLMVVXefhl_logo.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;"
+    />
+<button  id="menu-button7" (click)="goToNews()" ion-button outline color="dark" block icon-left style="font-weight:600;color:#CFCECE;text-align:left;" menuClose>
+      <ion-icon  name="medkit"></ion-icon>
+      Noticias
+    </button>
+  
+    <button id="menu-button14" (click)="goToAnalises()" ion-button outline color="dark" block icon-left style="font-weight:600;color:#CFCECE;text-align:left;" menuClose>
+      <ion-icon name="medkit"></ion-icon>
+      Análises
+    </button>
+    <button id="menu-button15" ion-button outline color="dark" block icon-left style="font-weight:600;color:#CFCECE;text-align:left;" menuClose>
+      <ion-icon name="medkit"></ion-icon>
+      Análistas BitFarm
+    </button>
+    <hr>
+    <button id="menu-button16" ion-button outline color="dark" block icon-left style="font-weight:600;color:#CFCECE;text-align:left;" menuClose>
+      <ion-icon name="medkit"></ion-icon>
+      Progamação de lives
+    </button>
+    <button id="menu-button17" ion-button outline color="dark" block icon-left style="font-weight:600;color:#CFCECE;text-align:left;" menuClose>
+      <ion-icon name="medkit"></ion-icon>
+      Fórum
+    </button>
+    <button id="menu-button18" ion-button outline color="dark" block icon-left style="font-weight:600;color:#CFCECE;text-align:left;" menuClose>
+      <ion-icon name="medkit"></ion-icon>
+      Ranking(Pilas)
+    </button>
+    <hr>
+    <button id="menu-button19" ion-button outline color="dark" block icon-left style="font-weight:600;color:#CFCECE;text-align:left;" menuClose>
+      <ion-icon name="medkit"></ion-icon>
+      A comunidade
+    </button>
+    <button id="menu-button20" ion-button outline color="dark" block icon-left style="font-weight:600;color:#CFCECE;text-align:left;" menuClose>
+      <ion-icon name="medkit"></ion-icon>
+      Indicaçoes
+    </button>
+    <button id="menu-button21" ion-button outline color="dark" block icon-left style="font-weight:600;color:#CFCECE;text-align:left;" menuClose>
+      <ion-icon name="medkit"></ion-icon>
+      Pontuação
+    </button>
+    <button id="menu-button22" ion-button outline color="dark" block icon-left style="font-weight:600;color:#CFCECE;text-align:left;" menuClose>
+      <ion-icon name="medkit"></ion-icon>
+      Sala de Trade
+    </button>
+    <button id="menu-button23" ion-button outline color="dark" block icon-left style="font-weight:600;color:#CFCECE;text-align:left;" menuClose>
+      <ion-icon name="medkit"></ion-icon>
+      Publicar Análises
+    </button>
+    <button id="menu-button24" ion-button outline color="dark" block icon-left style="font-weight:600;color:#CFCECE;text-align:left;" menuClose>
+      <ion-icon name="medkit"></ion-icon>
+      Fundo de Investimento
+    </button>
+    <hr>
+    <button id="menu-button25" ion-button outline color="dark" block icon-left style="font-weight:600;color:#CFCECE;text-align:left;" menuClose>
+      <ion-icon name="medkit"></ion-icon>
+      Minha Conta
+    </button>
+    <div class="spacer" style="height:29px;" id="menu-spacer9"></div>
+    <ion-row no-padding class="other-data">
+      <ion-col no-padding class="column">
+        <button ion-button icon-left small full color="light" menuClose (click)="goToLogout">
+          <ion-icon name="log-out"></ion-icon>
+          Sair
+        </button>
+      </ion-col>
+    </ion-row>
+
+
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mainContent [root]="rootPage"></ion-nav>

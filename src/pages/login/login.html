@@ -1,0 +1,38 @@
+<ion-content padding style="background:url(assets/img/p9sxBwJ4QoWIU9mxAJ9d_tela.jpg) no-repeat center;background-size:cover;"
+  id="page1">
+  <img src="assets/img/xK4MROhQQC6Q5xKyvvua_icon_bitfarm.png" style="display:block;width:30%;height:auto;margin-left:auto;margin-right:auto;"
+  />
+  <div class="spacer" style="height:34px;" id="login-spacer1"></div>
+  <form id="login-form1" >
+    <ion-item id="login-input1">
+      <ion-label floating>E-mail</ion-label>
+      <ion-icon name="mail" item-start class="text-primary"></ion-icon>
+      <ion-input type="email" placeholder="" #email></ion-input>
+    </ion-item>
+    <div class="spacer" style="height:11px;" id="login-spacer2"></div>
+    <ion-item id="login-input2">
+      <ion-label floating>senha</ion-label>
+      <ion-icon name="lock" item-start class="text-primary"></ion-icon>
+      <ion-input type="password" placeholder="" #senha></ion-input>
+    </ion-item>
+    
+    <div class="spacer" style="height:21px;" id="login-spacer4"></div>
+    <button id="login-button1" ion-button outline color="light" block style="font-style:italic;color:#FFF8F8;" (click)="entrar()">
+      Entrar
+    </button>
+    <button  id="login-button2" ion-button  clear color="light" block small style="text-align:right;">
+      Esqueceu a senha?
+    </button>
+    <div class="spacer" style="height:25px;" id="login-spacer3"></div>
+<button id="login-button3" ion-button outline color="light" block style="font-style:italic;color:#FFFFFF;" (click)="entrarCadastrar()">
+      Cadastrar
+    </button>
+    <button id="login-button4" ion-button clear color="light" block small style="color:#FFFFFF;" >
+      Fale conosco
+    </button>
+<button id="login-button5" ion-button outline color="dark" block style="color:#FFFFFF;" (click)="entrarQuemSomos()">
+  Quem somos
+
+    </button>
+  </form>
+</ion-content>

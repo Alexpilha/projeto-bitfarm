@@ -1,0 +1,22 @@
+<menu-topo [nomePagina]="Noticias" ></menu-topo>
+<ion-content padding style="background:url(assets/img/6NFJU7EhQkpNPMiiEccw_tela.jpg) no-repeat center;background-size:cover;"
+  id="page6">
+  <ion-content padding style="background:url(assets/img/6NFJU7EhQkpNPMiiEccw_tela.jpg) no-repeat center;background-size:cover;"
+    id="page6">
+      <div *ngFor="let noticiaAtual of noticias" style="background:#2f3c4d">
+        <div>
+          <p style="color: aliceblue">Titulo: {{ noticiaAtual.title}} </p>
+          <ion-card-header>
+            <img src="{{ noticiaAtual.thumbnail_url }}" (click)="abreNoticia(noticiaAtual.ID)">
+            <ion-col>
+              <p style="color: blue">Likes: {{ noticiaAtual.likes}} Dislikes: {{ noticiaAtual.dislikes}} </p>
+              </ion-col>
+          </ion-card-header>
+        </div>
+        <div class="spacer" style="height:11px;" id="login-spacer2"></div>
+      </div>
+  </ion-content>
+
+  <ion-content padding style="background:url(assets/img/6NFJU7EhQkpNPMiiEccw_tela.jpg) no-repeat center;background-size:cover;"
+    id="page6">
+  </ion-content>
