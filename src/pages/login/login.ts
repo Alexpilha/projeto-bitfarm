@@ -1,12 +1,11 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController,MenuController, ToastController, LoadingController } from 'ionic-angular';
-
 import { HomePage } from '../home/home';
 import { CadastrarPage } from '../cadastrar/cadastrar';
 import { ComunicacaoApiProvider } from '../../providers/comunicacao-api';
-
-
 import { InAppBrowser } from '@ionic-native/in-app-browser';
+
+
 
 
 export class Usuario {

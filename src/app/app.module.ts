@@ -20,6 +20,17 @@ import { MensagensProvider } from '../providers/mensagens';
 import { NoticiasPage } from '../pages/noticias/noticias';
 import { AnalisesPage } from '../pages/analises/analises';
 import { NoticiaPage } from '../pages/noticia/noticia';
+import { AnalistasPage } from '../pages/analistas/analistas';
+import { ProgramacaoPage } from '../pages/programacao/programacao';
+import { ForumPage } from '../pages/forum/forum';
+import { RankingPage } from '../pages/ranking/ranking';
+import { ComunidadePage } from '../pages/comunidade/comunidade';
+import { IndicacoesPage } from '../pages/indicacoes/indicacoes';
+import { PontuacaoPage } from '../pages/pontuacao/pontuacao';
+import { SalaDeTradePage } from '../pages/sala-de-trade/sala-de-trade';
+import { PublicarAnalisesPage } from '../pages/publicar-analises/publicar-analises';
+import { FundosPage } from '../pages/fundos/fundos';
+import { MinhaContaPage } from '../pages/minha-conta/minha-conta';
 
 
 @NgModule({
@@ -32,7 +43,18 @@ import { NoticiaPage } from '../pages/noticia/noticia';
     MenuTopoComponent,
     NoticiasPage,
     AnalisesPage,
-    NoticiaPage
+    NoticiaPage,
+    AnalistasPage,
+    ProgramacaoPage,
+    ForumPage,
+    RankingPage,
+    ComunidadePage,
+    IndicacoesPage,
+    PontuacaoPage,
+    SalaDeTradePage,
+    PublicarAnalisesPage,
+    FundosPage,
+    MinhaContaPage,
    
     
   ],
@@ -52,7 +74,19 @@ import { NoticiaPage } from '../pages/noticia/noticia';
     MenuTopoComponent,
     NoticiasPage,
     AnalisesPage,
-    NoticiaPage
+    NoticiaPage,
+    AnalistasPage,
+    ProgramacaoPage,
+    ForumPage,
+    RankingPage,
+    ComunidadePage,
+    IndicacoesPage,
+    PontuacaoPage,
+    SalaDeTradePage,
+    PublicarAnalisesPage,
+    FundosPage,
+    MinhaContaPage,
+    
   ],
   providers: [
     StatusBar,

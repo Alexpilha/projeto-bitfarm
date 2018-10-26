@@ -1,0 +1,4 @@
+#Mon Sep 17 17:18:05 BRT 2018
+base.0=C\:\\Users\\jessica\\Desktop\\projeto bitfarm 08-18\\ionic\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\Users\\jessica\\Desktop\\projeto bitfarm 08-18\\ionic\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

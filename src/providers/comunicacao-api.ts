@@ -20,7 +20,7 @@ export class ComunicacaoApiProvider {
 	}
 	
 	public getTodosVideos(token: string): Observable<any> {
-		let urlVideos: string = URL_VIDEOS + "/" + token;
+		let urlVideos: string = URL_VIDEOS + "/" + token ;
 		return this.http.get(urlVideos);
 	}
 
